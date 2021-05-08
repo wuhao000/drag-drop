@@ -1,0 +1,31 @@
+{
+  "name": "@aegis.inc/drag-drop",
+  "version": "0.0.1-beta",
+  "description": "",
+  "main": "dist/drag-drop.es.js",
+  "private": false,
+  "files": ["dist"],
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": {
+    "email": "wh1200@126.com",
+    "name": "wuhao"
+  },
+  "dependencies": {
+    "vue": "^3.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vitejs/plugin-vue-jsx": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.11",
+    "typescript": "^4.2.4",
+    "vite": "^2.2.4"
+  }
+}
